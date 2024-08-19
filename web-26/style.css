@@ -1,0 +1,51 @@
+body>:nth-child(2){
+    background-color: aqua;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+body>div:first-of-type{
+    background-color: blueviolet;
+    width: 1000px;
+    margin: 50px auto;
+}
+
+body>p:first-child{
+    background-color: blanchedalmond;
+    width: 900px;
+    margin: 50px auto;
+
+}
+
+body>p:last-child{
+    background-color: chartreuse;
+    width: 800px;
+    margin: 50px auto;
+}
+
+body>div:last-of-type{
+    background-color: fuchsia;
+    width: 1100px;
+    margin: 50px auto;
+
+}
+
+body>pre:empty{
+    background-color: forestgreen;
+    width: 500px;
+    height: 100px;
+    margin: 50px auto;
+}
+
+
+input:invalid{
+    border: 1px solid red;
+}
+
+input:valid{
+    border: 1px solid green;
+}
+
+h1:hover + h2{
+    background-color: aqua;
+}
